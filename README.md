@@ -1,10 +1,10 @@
-# 💸 ManniTracker
+#  ManniTracker
 
 A personal finance tracker that automatically reads your **GCash transaction history** from encrypted PDF exports and organizes your spending and received money by category — so you always know where your money goes.
 
 ---
 
-## 📋 Description
+##  Description
 
 ManniTracker takes the hassle out of manually tracking your GCash transactions. Simply upload your GCash PDF statement, enter your password, and the app does the rest — parsing every transaction, categorizing your spending, and giving you a clear dashboard of your financial activity. No more scrolling through your GCash app trying to remember what you spent last month.
 
@@ -12,12 +12,12 @@ ManniTracker takes the hassle out of manually tracking your GCash transactions. 
 
 ## ✨ Features
 
-- 📄 **GCash PDF Upload** — Upload your encrypted GCash transaction PDF directly in the app
-- 🔓 **Automatic PDF Decryption** — Enter your GCash PDF password and the app handles the decryption
-- 📊 **Spending by Category** — Transactions are automatically categorized (Food, Transport, Shopping, Bills, etc.)
-- 💰 **Money Received Tracking** — Separate view for all money you received
-- 📅 **Monthly Summary** — See your total spent and received per month at a glance
-- 🔐 **Secure Authentication** — Register and log in with your email, verified before access is granted
+-  **GCash PDF Upload** — Upload your encrypted GCash transaction PDF directly in the app
+-  **Automatic PDF Decryption** — Enter your GCash PDF password and the app handles the decryption
+-  **Spending by Category** — Transactions are automatically categorized (Food, Transport, Shopping, Bills, etc.)
+-  **Money Received Tracking** — Separate view for all money you received
+-  **Monthly Summary** — See your total spent and received per month at a glance
+-  **Secure Authentication** — Register and log in with your email, verified before access is granted
 
 ---
 

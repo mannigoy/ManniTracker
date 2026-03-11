@@ -23,10 +23,17 @@ public interface TransactionRepository extends JpaRepository<Transaction, UUID> 
     List<Transaction> findByUserIdAndCategoryId(UUID userId, UUID categoryId);
 
     // Get transactions by month and year
+    // Get transactions by month and year
+    @Query("SELECT t FROM Transaction t " +
+            "WHERE t.user.id = :userId " +
+            "AND FUNCTION('MONTH', t.transactionDate) = :month " +
+            "AND FUNCTION('YEAR', t.transactionDate) = :year")
     List<Transaction> findByUserIdAndMonthAndYear(
-            UUID userId, int month, int year
+            @Param("userId") UUID userId,
+            @Param("month") int month,
+            @Param("year") int year
     );
-
+    
     // Get total spent per category for a user
     @Query("SELECT t.category.name, SUM(t.amount) FROM Transaction t " +
             "WHERE t.user.id = :userId AND t.type = 'SENT' " +
